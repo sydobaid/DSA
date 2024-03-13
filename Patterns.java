@@ -41,12 +41,14 @@ public class Patterns {
          */
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
-                System.out.print("* ");
+                System.out.print(j+" ");
             }
             System.out.println();
         }
     }
     public static void main(String[] args) {
-        solidRectangle(5);
+        // solidRectangle(5);
+        // rightTriangle(5);
+        numberTriangle(5);
     }
 }
